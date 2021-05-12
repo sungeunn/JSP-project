@@ -1,0 +1,144 @@
+@CHARSET "UTF-8";
+
+body {
+	background: rgb(0, 0, 0);
+}
+
+.join-container {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding-bottom: 3rem;
+}
+
+.join-redcarpet {
+	position: absolute;
+	top: -25px;
+}
+
+.join-wrap {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background: #ffffff;
+	padding: 2rem 4rem;
+	border: 1px white solid;
+	border-radius: 2rem;
+}
+
+.join-title {
+	margin: 30px;
+	padding: 1rem;
+	text-align: center;
+	font-size: 2rem;
+	font-weight: bold;
+}
+
+.join-form {
+	padding-top: 1rem;
+	background: #ffffff;
+	width: 30rem;
+	display: flex;
+	flex-direction: column;
+}
+
+.check-container {
+	display: flex;
+}
+
+.check-container input {
+	flex: 2.5;
+}
+
+.check-container button {
+	flex: 1.5;
+	padding: 1rem;
+	border-radius: 1rem;
+	background-color: #ccc;
+	color: white;
+	margin-left: 1rem;
+}
+
+.join-form input {
+	width: 100%;
+	padding: 1rem;
+	margin-bottom: 1rem;
+	border: var(- -input-border-base-color) 1px solid;
+	border-radius: 0.5rem;
+}
+
+.bir_wrap {
+    display: table;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+
+.bir_dd, .bir_mm, .bir_yy {
+    display: table-cell;
+    table-layout: fixed;
+    width: 140px;
+}
+
+.int {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 29px;
+    padding-right: 25px;
+    line-height: 29px;
+    border: none;
+    background: #fff;
+    font-size: 15px;
+    box-sizing: border-box;
+    z-index: 10;
+}
+
+.sel {
+    width: 100%;
+    height: 29px;
+    padding: 5px;
+    font-size: 15px;
+    color: #000;
+    border: none;
+    border-radius: 0;
+}
+
+.btn {opacity: 0;}
+
+input[type=radio] {
+	display: none;
+}
+
+input[type=radio] + label {
+	display: inline-block;
+	margin: 0px auto;
+	padding: 10px 90px;
+	background-color: #ccc;
+	border: 1px solid #ccc;
+	border-radius: 0.5rem;
+	color: #ffff;
+	text-align: center;
+}
+
+input[type=radio]:checked + label {
+	background-color: red;
+	color: #ffff;
+	border: 1px solid red;
+}
+
+.submit-container {
+	display: flex;
+	justify-content: center;
+}
+
+.join-form__submit {
+	background-color: #ff0000;
+	width: 12rem;
+	padding: 1rem;
+	margin-top: 5rem;
+	color: white;
+	border-radius: 999px;
+	margin-bottom: 2rem;
+}

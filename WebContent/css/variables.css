@@ -1,0 +1,8 @@
+@CHARSET "UTF-8";
+
+:root {
+  --gray: rgb(31, 41, 55);
+  --green: rgb(52, 211, 153);
+  --input-border-base-color: rgb(156, 163, 175);
+  --button-bg-color: rgb(107, 114, 128);
+}

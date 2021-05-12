@@ -1,0 +1,30 @@
+@CHARSET "UTF-8";
+
+#sub_img_center {
+	width: 971px;
+	height: 250px;
+	background-image: url("../images/lalaland.jpg");
+	background-repeat: no-repeat;
+	background-position: left top;
+	} 
+
+#contact-container {
+	display: flex;
+	padding: 30px;
+}
+         
+#bullhorn {
+	position: relative;
+	width: 100px;
+	height: 100px;
+	margin-top: 10px;
+	margin-left: 150px;
+	margin-right: 50px;
+	background-image: url("../images/bull.jpg");
+	} 
+	
+#cs {
+	float: left;
+	font-size: 13px;
+	line-height: normal;
+	} 

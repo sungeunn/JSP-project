@@ -1,0 +1,14 @@
+@CHARSET "UTF-8";
+
+#star_grade {
+	margin-left: 2rem;
+}
+
+#star_grade span{
+	color: gray;
+	cursor: pointer;
+}
+
+#star_grade .on{
+	color: red;
+}

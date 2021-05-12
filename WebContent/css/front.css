@@ -1,0 +1,40 @@
+@CHARSET "UTF-8";
+
+.clear {clear: both;}
+
+* {margin:0;padding:0;}
+    ul,li {list-style:none;}
+    .slide {height:300px; overflow:hidden;}
+    .slide ul {position:relative; height:100%;}
+    .slide li {
+    position:absolute;
+    left:0; right:0; top:0; bottom:0;
+    opacity:0; animation:fade 12s infinite;}
+    .slide li:nth-child(1) {background-image : url("../images/main/civilwar.gif"); animation-delay:0s}
+    .slide li:nth-child(2) {background-image : url("../images/main/mebeforeyou.gif"); animation-delay:3s}
+    .slide li:nth-child(3) {background-image : url("../images/main/harrypotter.gif"); animation-delay:6s}
+    .slide li:nth-child(4) {background-image : url("../images/main/parasite.gif"); animation-delay:9s}
+    @keyframes fade {
+      0% {opacity:0;}
+      5% {opacity:1;}
+      25% {opacity:1;}
+      30% {opacity:0;}
+      100% {opacity:0;}
+    }
+
+#main_img {
+	width: 971px; 
+	height: 308px;
+	background-image:url("../images/img_back.png");
+	background-repeat: no-repeat;
+	background-position: center top;
+	} /* 너비 971px 높이 308px 배경이미지 img_back.png 
+	     반복 no 위치 가운데 위 */
+	     
+#main_img img {margin: 9px 0 0 0} /* 밖여백 9px 0 0 0 */
+
+.book {
+	width: 961px;
+	display: flex;
+	margin: 50px 190px;
+}

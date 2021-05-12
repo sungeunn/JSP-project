@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+body {
+	background-color: #ffffff;
+	margin: 0px;
+}
+
+.intro_logo {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 5rem;
+}
+
+.count {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
